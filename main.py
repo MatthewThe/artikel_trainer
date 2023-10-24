@@ -80,7 +80,7 @@ def update_input_text(url):
     
     article_text = ""
     for paragraph in body.find_all("p", attrs={'data-manual': 'paragraph'}):
-        article_text += paragraph.get_text() + "\n"
+        article_text += paragraph.get_text() + "\n\n"
         
     st.session_state.input = article_text
     click_submit()
