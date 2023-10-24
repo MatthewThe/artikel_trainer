@@ -7,8 +7,10 @@ readme = "README.md"
 packages = [{include = "artikel_trainer"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.9.7 || >3.9.7,<4.0"
 feedparser = "^6.0.10"
+streamlit = "^1.27.2"
+beautifulsoup4 = "^4.12.2"
 
 
 [build-system]
