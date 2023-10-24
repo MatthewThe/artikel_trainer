@@ -3,8 +3,8 @@ name = "artikel-trainer"
 version = "0.1.0"
 description = ""
 authors = ["Matthew The <matthew.the@tum.de>"]
-readme = "README.md"
-packages = [{include = "artikel_trainer"}]
+readme = "ReadMe.md"
+# packages = [{include = "artikel_trainer"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.9.7 || >3.9.7,<4.0"
